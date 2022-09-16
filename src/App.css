@@ -8,8 +8,8 @@
 .notification-form {
   background-color: #c7d2d7;
   border-radius: 5px;
-  height: 400px;
-  width: 600px;
+  min-height: 500px;
+  width: 800px;
 }
 
 .notification-form .header {
