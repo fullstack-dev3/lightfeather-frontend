@@ -4,3 +4,44 @@
   justify-content: center;
   min-height: 100vh;
 }
+
+.notification-form {
+  background-color: #c7d2d7;
+  border-radius: 5px;
+  height: 400px;
+  width: 600px;
+}
+
+.notification-form .header {
+  background-color: #6b8085;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.notification-form .body {
+  margin: 0;
+}
+
+.notification-form .body .form-label {
+  color: #6e8288;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.notification-form .body input[type="text"]
+ {
+  border-radius: 0;
+}
+
+.notification-form .body select {
+  color: #6e8288;
+}
+
+.notification-form .body button {
+  background-color: #6b8085;
+  color: #FFFFFF;
+  padding: 5px 25px;
+}
