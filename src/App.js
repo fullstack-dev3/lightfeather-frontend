@@ -63,13 +63,15 @@ class App extends Component {
     if (valid) {
       const response  = await this.submitAction();
       const result = await response.json();
-      
+
       if (result.status === 200) {
         this.setState({ success: true });
 
         setTimeout(() => {
           this.setState({ success: false });
         }, 3000)
+      } else if (result.status === 400) {
+        this.setState({ errors: result.errors });
       }
     }
   }
